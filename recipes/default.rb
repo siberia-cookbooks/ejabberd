@@ -32,7 +32,7 @@ end
 %w{
   ejabberd
 }.each do |p|
-  package "#{p}" do
+  package p do
     action :install
   end
 end
